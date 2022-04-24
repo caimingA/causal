@@ -1,0 +1,16 @@
+digraph {
+	"4. NOX" -> "5. RM" [label=-1.09]
+	"4. NOX" -> "6. AGE" [label=121.89]
+	"4. NOX" -> "7. DIS" [label=-5.84]
+	"2. INDUS" -> "9. TAX" [label=6.10]
+	"8. RAD" -> "9. TAX" [label=13.87]
+	"3. CHAS" -> "10. PTRATIO" [label=-0.67]
+	"4. NOX" -> "10. PTRATIO" [label=-7.48]
+	"4. NOX" -> "12. LSTAT" [label=1.77]
+	"5. RM" -> "12. LSTAT" [label=-2.05]
+	"3. CHAS" -> "13. PRICE" [label=2.62]
+	"4. NOX" -> "13. PRICE" [label=-11.69]
+	"5. RM" -> "13. PRICE" [label=6.53]
+	"7. DIS" -> "13. PRICE" [label=-0.53]
+	"10. PTRATIO" -> "13. PRICE" [label=-0.92]
+}
